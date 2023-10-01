@@ -1,0 +1,13 @@
+SELECT WITHOUT WHERE: 
+ SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+  
+SELECT WITHOUT WHERE: 
+ SELECT "b"."BlogId", "b"."Url"
+FROM "Blogs" AS "b" 
+  
+SELECT WITHOUT WHERE: 
+ SELECT "b"."BlogId", "b"."Url"
+FROM "Blogs" AS "b" 
+  
