@@ -44,7 +44,6 @@ public class SelectWithoutWhereCommandInterceptor : DbCommandInterceptor
             }
 
             var stackTrace = string.Join("\n", Environment.StackTrace.Split('\n')
-                .Where(x => x.Contains("at ClassifiedAds."))
                 .Select(x => x));
 
             Log(command.CommandText, stackTrace);
