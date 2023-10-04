@@ -11,3 +11,18 @@ SELECT WITHOUT WHERE:
  SELECT "b"."BlogId", "b"."Url"
 FROM "Blogs" AS "b" 
   
+SELECT WITHOUT WHERE: 
+ SELECT "b"."BlogId", "b"."Url"
+FROM "Blogs" AS "b" 
+    at System.Environment.get_StackTrace()
+   at SelectWithoutWhereDetection.Interceptors.SelectWithoutWhereCommandInterceptor.CheckCommand(DbCommand command) in D:\Phong.NguyenDoan\GitHub\blog.nashtechglobal.com\src\blog.nashtechglobal.com\SelectWithoutWhereDetection\Interceptors\SelectWithoutWhereCommandInterceptor.cs:line 46
+   at SelectWithoutWhereDetection.Interceptors.SelectWithoutWhereCommandInterceptor.ReaderExecuting(DbCommand command, CommandEventData eventData, InterceptionResult`1 result) in D:\Phong.NguyenDoan\GitHub\blog.nashtechglobal.com\src\blog.nashtechglobal.com\SelectWithoutWhereDetection\Interceptors\SelectWithoutWhereCommandInterceptor.cs:line 10
+   at Microsoft.EntityFrameworkCore.Diagnostics.Internal.RelationalCommandDiagnosticsLogger.CommandReaderExecuting(IRelationalConnection connection, DbCommand command, DbContext context, Guid commandId, Guid connectionId, DateTimeOffset startTime, CommandSource commandSource)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Program.<Main>$(String[] args) in D:\Phong.NguyenDoan\GitHub\blog.nashtechglobal.com\src\blog.nashtechglobal.com\SelectWithoutWhereDetection\Program.cs:line 5 
