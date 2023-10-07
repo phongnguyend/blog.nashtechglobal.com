@@ -35,17 +35,6 @@ internal class Program
             //"Microsoft."
         };
 
-        var cache = File.ReadAllLines("cache.csv").Select(x =>
-        {
-            var parts = x.Split(',');
-            var package = parts[0].Trim();
-            var version = parts[1].Trim();
-            var license = parts[2].Trim();
-
-            return new { package, version, license };
-
-        }).Where(x => !string.IsNullOrEmpty(x.license)).ToList();
-
         using (var fileStream = File.Open("packages.csv", FileMode.Create))
         {
             using (var streamWriter = new StreamWriter(fileStream))
@@ -57,23 +46,9 @@ internal class Program
                         continue;
                     }
 
-                    var license = cache.Where(x => x.package == package.Name && x.version == package.Version).FirstOrDefault()?.license;
+                    streamWriter.WriteLine($"{package.Name},{package.Version},\"{package.Url}\",\"{package.Projects}\"");
 
-                    var foundCache = license != null;
-
-                    if (!foundCache)
-                    {
-                        license = GetLicense(package.Name, package.Version);
-                    }
-
-                    streamWriter.WriteLine($"{package.Name},{package.Version}, {license} ,\"{package.Url}\",\"{package.Projects}\"");
-
-                    Console.WriteLine($"{package.Name}, {package.Version}, {license}");
-
-                    if (!foundCache)
-                    {
-                        Thread.Sleep(2000);
-                    }
+                    Console.WriteLine($"{package.Name}, {package.Version}");
                 }
             }
         }
