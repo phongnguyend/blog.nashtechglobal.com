@@ -58,10 +58,16 @@ internal class Program
 
     private static List<(string Name, string Version, string Project)> ScanPackagesInPackagesConfigureFiles(string directory)
     {
-        var files = Directory.GetFiles(directory, "package.json", SearchOption.AllDirectories);
+        var files = Directory.EnumerateFiles(directory, "package.json", SearchOption.AllDirectories);
         var packages = new List<(string Name, string Version, string Project)>();
+
         foreach (var file in files)
         {
+            if (file.Contains("\\node_modules\\", StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
             var package = System.Text.Json.JsonSerializer.Deserialize<Package>(File.ReadAllText(file), new System.Text.Json.JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true,

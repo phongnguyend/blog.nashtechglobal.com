@@ -47,8 +47,9 @@ using (var fileStream = File.Open("packages.csv", FileMode.Create))
 
 static List<(string Name, string Version, string Project)> ScanPackagesInPackagesConfigureFiles(string directory)
 {
-    var files = Directory.GetFiles(directory, "packages.config", SearchOption.AllDirectories);
+    var files = Directory.EnumerateFiles(directory, "packages.config", SearchOption.AllDirectories);
     var packages = new List<(string Name, string Version, string Project)>();
+
     foreach (var file in files)
     {
         var projectName = new DirectoryInfo(Path.GetDirectoryName(file)).Name;
@@ -69,8 +70,9 @@ static List<(string Name, string Version, string Project)> ScanPackagesInPackage
 
 static List<(string Name, string Version, string Project)> ScanPackagesInCsProjectFiles(string directory)
 {
-    var files = Directory.GetFiles(directory, "*.csproj", SearchOption.AllDirectories);
+    var files = Directory.EnumerateFiles(directory, "*.csproj", SearchOption.AllDirectories);
     var packages = new List<(string Name, string Version, string Project)>();
+
     foreach (var file in files)
     {
         var projectName = new DirectoryInfo(Path.GetDirectoryName(file)).Name;
