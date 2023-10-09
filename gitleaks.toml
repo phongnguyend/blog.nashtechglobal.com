@@ -1,0 +1,10 @@
+title = "gitleaks config"
+
+[allowlist]
+description = "global allow lists"
+paths = ['''gitleaks.toml''']
+
+[[rules]]
+	id = "BadWords"
+	description = "Bad Words"
+	regex = '''.*(hell|heck).*'''
