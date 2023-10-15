@@ -1,0 +1,206 @@
+<mxfile host="app.diagrams.net" modified="2023-10-15T03:23:46.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Tt-nEPjjE2RKjbi11fan" version="22.0.4" type="device">
+  <diagram name="Page-1" id="cFqkAM_ZIGlkFSeheGkS">
+    <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-1" target="L1mCmv_AoDr7P1uFcI49-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-1" value="DbContext&lt;br&gt;Instantiation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-2" target="L1mCmv_AoDr7P1uFcI49-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-2" value="DbContext&lt;br&gt;Initialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-3" target="L1mCmv_AoDr7P1uFcI49-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-3" value="Build Internal Service Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-4" target="L1mCmv_AoDr7P1uFcI49-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-4" value="Build Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-5" target="L1mCmv_AoDr7P1uFcI49-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-5" value="Compile Query" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-6" value="Execute Query" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="150" as="sourcePoint" />
+            <mxPoint x="99.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="270" as="sourcePoint" />
+            <mxPoint x="99.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="390" as="sourcePoint" />
+            <mxPoint x="100" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="510" as="sourcePoint" />
+            <mxPoint x="99.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="630" as="sourcePoint" />
+            <mxPoint x="99.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-12" value="Compiles delegate to set DbSet properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-14" value="Lazy: happens when DbContext is used, runs OnConfiguring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-15" value="Build DI container for EF Core internal services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-16" value="Builds metadata model, runs OnModelCreating" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-20" value="Parses LINQ into SQL template" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-23" target="L1mCmv_AoDr7P1uFcI49-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-23" value="DbContext&lt;br&gt;Instantiation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-25" target="L1mCmv_AoDr7P1uFcI49-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-25" value="DbContext&lt;br&gt;Initialization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-27" target="L1mCmv_AoDr7P1uFcI49-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-27" value="Build Internal Service Provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-29" target="L1mCmv_AoDr7P1uFcI49-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-29" value="Build Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-31" target="L1mCmv_AoDr7P1uFcI49-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-31" value="Compile Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-32" value="Execute Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="910" as="sourcePoint" />
+            <mxPoint x="99.5" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="1030" as="sourcePoint" />
+            <mxPoint x="99.5" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1150" as="sourcePoint" />
+            <mxPoint x="100" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="1270" as="sourcePoint" />
+            <mxPoint x="99.5" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="1390" as="sourcePoint" />
+            <mxPoint x="99.5" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-38" value="Compiles delegate to set DbSet properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="840" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-39" value="Lazy: happens when DbContext is used, runs OnConfiguring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="960" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-40" value="Build DI container for EF Core internal services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1080" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-41" value="Builds metadata model, runs OnModelCreating" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1200" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1mCmv_AoDr7P1uFcI49-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-42" value="Parses LINQ into SQL template" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1320" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-43" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="840" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-44" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="957" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-45" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1077" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-46" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1197" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="L1mCmv_AoDr7P1uFcI49-47" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1320" width="60" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
