@@ -1,0 +1,5 @@
+Add-Migration Init
+Update-Database
+
+
+dotnet ef dbcontext optimize --output-dir MyCompiledModels --namespace EfCoreCompiledModels.Models
