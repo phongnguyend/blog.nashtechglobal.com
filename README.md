@@ -7,3 +7,4 @@
 - [List All 3rd Party Packages Being Used In Your Project – Part 4: Create Your Own .Net Project Templates](https://blog.nashtechglobal.com/list-all-3rd-party-packages-being-used-in-your-project-part-4-create-your-own-net-project-templates/)
 - [Profanity Check Source Code with Gitleaks, Why Not?](https://blog.nashtechglobal.com/profanity-check-source-code-with-gitleaks-why-not/)
 - [Profanity Check Source Code with Gitleaks - Part 2: Azure Pipelines Integration](https://blog.nashtechglobal.com/profanity-check-source-code-with-gitleaks-part-2-azure-pipelines-integration/)
+- [Entity Framework Core Internals: High-Level Overview](https://blog.nashtechglobal.com/entity-framework-core-internals-high-level-overview/)
