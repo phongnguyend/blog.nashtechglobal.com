@@ -1,6 +1,7 @@
 # Published:
 - [Entity Framework Core Tips: Detect a Select without Where Clause Using DbComand Interceptor](https://blog.nashtechglobal.com/entity-framework-core-tips-detect-a-select-without-where-clause-using-dbcomand-interceptor/)
 - [Entity Framework Core Tips: Making Queries Run As Fast As Dapper](https://blog.nashtechglobal.com/entity-framework-core-tips-making-queries-run-as-fast-as-dapper/)
+- [Entity Framework Core Tips: Speeding Up Your First Query Using Compiled Models](https://blog.nashtechglobal.com/entity-framework-core-tips-speeding-up-your-first-query-using-compiled-models/)
 - [How To List All 3rd Packages Being Used In Your Project](https://blog.nashtechglobal.com/how-to-list-all-3rd-packages-being-used-in-your-project/)
 - [List All 3rd Party Packages Being Used In Your Project - Part 2: Create Your Own .Net CLI Tool](https://blog.nashtechglobal.com/list-all-3rd-party-packages-being-used-in-your-project-part-2-create-your-own-net-cli-tool/)
 - [List All 3rd Party Packages Being Used In Your Project – Part 3: Azure Pipelines Integration](https://blog.nashtechglobal.com/list-all-3rd-party-packages-being-used-in-your-project-part-3-azure-pipelines-integration/)
