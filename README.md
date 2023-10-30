@@ -9,3 +9,4 @@
 - [Profanity Check Source Code with Gitleaks, Why Not?](https://blog.nashtechglobal.com/profanity-check-source-code-with-gitleaks-why-not/)
 - [Profanity Check Source Code with Gitleaks - Part 2: Azure Pipelines Integration](https://blog.nashtechglobal.com/profanity-check-source-code-with-gitleaks-part-2-azure-pipelines-integration/)
 - [Entity Framework Core Internals: High-Level Overview](https://blog.nashtechglobal.com/entity-framework-core-internals-high-level-overview/)
+- [Entity Framework Core Internals: DbContext Instantiation and Initialization](https://blog.nashtechglobal.com/entity-framework-core-internals-dbcontext-instantiation-and-initialization/)
