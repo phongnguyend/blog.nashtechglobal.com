@@ -15,7 +15,7 @@ public class BloggingContext : DbContext
     {
         var folder = Environment.SpecialFolder.LocalApplicationData;
         var path = Environment.GetFolderPath(folder);
-        DbPath = System.IO.Path.Join(path, "blogging.db");
+        DbPath = Path.Join(path, "blogging.db");
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -28,6 +28,8 @@ public class BloggingContext : DbContext
 public class Blog
 {
     public int BlogId { get; set; }
+
+    public string Name { get; set; }
 
     public string Url { get; set; }
 

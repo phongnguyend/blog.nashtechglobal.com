@@ -10,8 +10,8 @@ using SelectWithoutWhereDetection;
 namespace SelectWithoutWhereDetection.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    [Migration("20231001035602_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20231106072655_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,10 @@ namespace SelectWithoutWhereDetection.Migrations
                     b.Property<int>("BlogId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Url")
                         .IsRequired()
