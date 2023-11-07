@@ -11,3 +11,4 @@
 - [Entity Framework Core Internals: High-Level Overview](https://blog.nashtechglobal.com/entity-framework-core-internals-high-level-overview/)
 - [Entity Framework Core Internals: DbContext Instantiation and Initialization](https://blog.nashtechglobal.com/entity-framework-core-internals-dbcontext-instantiation-and-initialization/)
 - [Entity Framework Core Internals: Dependency Injection and Internal Service Provider](https://blog.nashtechglobal.com/entity-framework-core-internals-dependency-injection-and-internal-service-provider/)
+- [Entity Framework Core Internals: Model Building](https://blog.nashtechglobal.com/entity-framework-core-internals-model-building/)
