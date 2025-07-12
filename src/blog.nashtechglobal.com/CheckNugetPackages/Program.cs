@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
 
 internal class Program
 {
@@ -7,11 +6,13 @@ internal class Program
     {
         var packages = new List<(string Name, string Version, string Project)>();
 
-        var directories = new[]
-        {
-            @"D:\Project1\API",
-            @"D:\Project2\API",
-        };
+        var directories = args.Length > 0
+            ? args
+            :
+            [
+                @"D:\Project1\API",
+                @"D:\Project2\API",
+            ];
 
         foreach (var directory in directories)
         {

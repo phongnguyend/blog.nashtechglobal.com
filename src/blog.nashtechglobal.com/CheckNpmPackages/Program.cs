@@ -6,11 +6,13 @@ internal class Program
     {
         var packages = new List<(string Name, string Version, string Project)>();
 
-        var directories = new[]
-        {
-            @"D:\Project1\UI",
-            @"D:\Project2\UI",
-        };
+        var directories = args.Length > 0
+            ? args
+            :
+            [
+                @"D:\Project1\UI",
+                @"D:\Project2\UI",
+            ];
 
         foreach (var directory in directories)
         {
